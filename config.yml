@@ -1,0 +1,7 @@
+webserver:
+  host: 192.168.1.200
+  port: 8080
+sonoff:
+  sonoff1:
+    ip: 192.168.1.201
+log_file: /var/log/gambota-server/webserver.log

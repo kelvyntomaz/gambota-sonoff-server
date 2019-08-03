@@ -1,0 +1,8 @@
+[Unit]
+Description=Service Gambota Sonoff Server
+
+[Service]
+ExecStart=/opt/gambota-sonoff-server/webserver.py
+
+[Install]
+WantedBy=multi-user.target
